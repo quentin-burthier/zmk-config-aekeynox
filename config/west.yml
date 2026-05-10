@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/cfergeau
     - name: NuclearSquid
       url-base: https://github.com/Nuclear-Squid
+    - name: quentin-burthier
+      url-base: https://github.com/quentin-burthier
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -19,5 +21,8 @@ manifest:
     - name: zmk-config-totem
       remote: cfergeau
       revision: zmk-module
+    - name: zmk-config
+      remote: quentin-burthier
+      revision: main
   self:
     path: config
